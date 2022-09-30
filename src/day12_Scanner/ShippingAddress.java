@@ -14,30 +14,9 @@ public class ShippingAddress {
         System.out.println("Enter your building number:");
         String buildingNumber = scan.next();
 
-        scan.nextLine();
-
-        System.out.println("Enter your street name:");
-        String streetName = scan.nextLine();
-
-        System.out.println("Enter your city name:");
-        String cityName = scan.nextLine();
-
-        System.out.println("Enter your state:");
-        String state = scan.next();
-
-        System.out.println("Enter your zip code:");
-        String zipCode = scan.next();
-
-        scan.nextLine();
-
-        System.out.println("Enter your country name:");
-        String countryName = scan.nextLine();
 
 
 
-        System.out.println(fullName + "\n"+ buildingNumber + streetName + "\n" + cityName + ", " + state + zipCode);
-
-        scan.close();
 
 
     }
